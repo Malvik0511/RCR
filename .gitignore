@@ -1,0 +1,5 @@
+node_modules
+.idea
+dist/index.html
+dist/index-bundle.js
+dist/index_bundle.js

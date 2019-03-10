@@ -1,0 +1,5 @@
+src/index.js - точка подключения webpack;
+src/index.html - точка монтирования реакт приложения;
+src/components/App.js - компоненты приложения;
+src/styles/App.css - стили приложения
+dist/index.html - собранный вариант приложения;

@@ -1,0 +1,119 @@
+body {
+    margin: 0px;
+    padding: 10px;
+    background: #0E1A2C;
+    overflow-x: hidden;
+}
+
+h2 {
+    text-align: center;
+    color: white;
+}
+
+table{
+    background: #1A385B;
+    color: white
+}
+
+button{
+    background: #1A385B;
+    color: white;
+    border: 1px solid #1a3850;
+}
+
+button:hover{
+    opacity: 0.85;
+    cursor: pointer;
+}
+
+#root{
+    overflow-x: hidden;
+}
+
+.err{
+    color: red;
+    font-size: 12px;
+    text-align: left;
+}
+
+.matrix-sizer{
+    text-align: center;
+}
+
+.matrix-sizer label{
+    padding: 0px 5px;
+    color: white
+}
+
+.matrix-sizer__input-group{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: start;
+}
+
+.app__main-info{
+    display: flex;
+    justify-content: center;
+    padding: 20px 0px;
+    overflow-x: auto;
+}
+
+.app__wrapper-matrix{
+    margin-bottom: 20px;
+}
+
+.matrix{
+    display:table;
+    text-align: center;
+}
+
+.matrix-row{
+    display: table-row;
+}
+
+.matrix__cell-wrapper{
+    display: table-cell;
+    min-width: 20px;
+    height: 20px;
+    background: white;
+    box-sizing: border-box;
+    border:1px solid black;
+    text-align: center;
+}
+
+.matrix__cell-wrapper:hover,
+.matrix__cell-wrapper:focus{
+    opacity: 0.85;
+    border-color:gray;
+    cursor:pointer;
+}
+
+.form-group{
+    height: 36px;
+}
+
+.matrix__cell{
+    width: 100%;
+}
+
+.matrix__resolve-btn{
+    min-width: 100%;
+    height: 30px
+}
+
+.ant-checkbox-wrapper:hover{
+    cursor: pointer;
+}
+
+@media (max-width: 600px) {
+    .matrix-sizer__input-group{
+        justify-content: space-between;
+    }
+}
+
+@media (max-width: 960px) {
+    .app__main-info{
+        flex-wrap: wrap;
+    }
+}
